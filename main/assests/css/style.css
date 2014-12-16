@@ -1,0 +1,720 @@
+ /***************************** 
+GENERAL STYLE ADJUSMENTS
+******************************/
+.secondary-menu.sticky {
+-webkit-transform: translateY(0);
+-moz-transform: translateY(0);
+-ms-transform: translateY(0);
+-o-transform: translateY(0);
+transform: translateY(0)}
+
+#skip-link {display: block}
+#skip-link a {color:#fff;text-decoration:none;position:absolute;left: -999px; z-index:1001}
+#skip-link a:focus {left:5px}
+
+/* Hide "empty" element links off screen by enclosing their text within this class. */
+.off-screen {position:absolute;left:-2000em}
+
+@media (max-width: 69em) and (min-width: 60em){
+ul#cu-nav-main a.menu-item {padding: 60px 12px 22px}
+}	
+		
+H3.cu-headline a, H3.cu-headline a:visited, H3.cu-headline a:hover {color: #000;}
+.full .cu-main {}
+.flush-top {margin-top: 0; display: none}
+.academics h2.cu-title {position:inherit}
+.academics h3.cu-title {clear: both}
+.academics .copy-block .link-list {margin-top: 10px}
+body.academics .page-block h3.cu-title {clear: both; margin-bottom:5px;}
+body.academics .page-block p { margin-bottom:2em; }
+
+@media (min-width: 60em) {
+.page-block { margin-bottom:30px}
+}
+
+.cu-headline:before {text-align:center}
+
+.marquee-copy h2 {
+filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,strength=2,direction=180);
+}
+.marquee-copy p {
+filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,strength=2,direction=180);
+}
+
+.marquee-copy a{color:#fff} 
+.marquee-copy a:hover{color:#fff} 
+
+.media-overlay.vjack {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000',GradientType=0 )}
+
+.marquee-shim{margin-top:-1px}
+
+.cu-tour-times time {font-weight:500; clear:both}
+
+@media (min-width: 60em) and (max-width: 68.438em){.cu-tour-times {width:95px}
+}
+
+.link-pile-title.empty {font-size: 13px;border-bottom: 0;margin-bottom: 0;padding-bottom: 0}
+
+.page-block .tab-panel {position:inherit}
+
+h4.link-pile-title a {font-weight: 700}
+
+.gray-wrap {background-color: #fbfbfb}
+
+p.search-intro {padding: 20px 0 0 0}
+.table-cell-list {list-style: none; margin: 0;padding: 0}
+.table-cell-list li {margin-bottom: 10px}
+
+@media (max-width: 60em){
+.admissions-program .vbottom {width: 97%}}
+.academic-calendar td { width: 40%}
+ul li ul {margin-top: 10px}
+
+
+@media (min-width: 90em){
+.hc-title {font-size: 27px;}
+}
+
+@media (min-width: 105em){
+.hc-title {font-size: 34px}
+}
+
+.student-blogs a.dark:hover {color: #fff;}
+
+@media (min-width: 60em){
+figure.full-width figcaption {
+font-size: initial}
+}
+
+@media (min-width: 60em){.academics-portraits a.tab {margin-right: 2.5em}
+}
+
+
+@media (min-width: 60em){.chronicle-tower {min-height: 930px}
+}
+
+.grid-title {margin-top:24px}
+
+span.search {display:block;text-indent:-5000em;margin-top:-42px}
+
+h3.cu-tower-title a {font-family: "freight-text-pro-n4","freight-text-pro",serif; color: #000;}
+
+
+/***************************** 
+VIDEO PLAY BTN ADJUSMENTS
+******************************/
+@-moz-document url-prefix() {
+    .media-play-overlay {
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		-o-transform: scale(1.1);
+		transform: scale(1.1);
+		transition-duration: 0s
+    }
+}
+
+/***************************** 
+RESEARCH VIDEO ADJUSTMENTS IE8
+******************************/
+
+.lt-ie9 A.tab {margin-right:0}
+.lt-ie9 .research-collaboration .media-box {margin-bottom:0}
+
+/***************************** 
+SHIM STYLE ADJUSMENTS
+******************************/
+
+.cu-tower {-webkit-backface-visibility: hidden}
+
+.research-sidebar {-webkit-backface-visibility: hidden}
+
+.engagement-land-grant .link-list {-webkit-backface-visibility: hidden}
+
+.link-shim {-webkit-backface-visibility: hidden}
+
+.cu-ftr-inner {-webkit-backface-visibility: hidden}
+
+/***************************** 
+RED NAV BAR IE9-FIX kdl48
+******************************/
+
+@media (min-width: 60em) {
+ul#cu-nav-utility ul.submenu-links {float: right; margin-right: 42px}
+ul#cu-nav-utility .submenu {position: initial}
+ul#cu-nav-utility>li {position: initial}
+ul#cu-nav-utility {position: initial;right: 0}
+}
+
+/***************************** 
+SEARCH PAGES
+******************************/
+
+#mainSearchResults {width:60%; float:left}
+#searchResultsCards {width:37%; float:right}
+
+@media (max-width: 36em){ #mainSearchResults {width:auto; float:none} #searchResultsCards {width:auto; float:none}
+}
+
+#pages-results {padding-top: 118px;}
+
+#pages-results .gsc-table-result {width:100%}
+#pages-results .gs-snippet, #pages-results .gs-visibleUrl {font-size: 18px; line-height: 1.7;}
+
+#pages-results .gsc-result.gsc-promotion {
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+background: #f2f2f2;
+}
+
+
+
+/*#peoplename {margin-top: -100px;}*/
+#general-block, #phone-block, #address-block { float: left; width: 30%; margin-right: 5%;}
+#address-block {margin: 0;}
+#employment-block {clear: both; margin-right: 5%;}
+#employment-block, #other-block {float: left; width: 47%;}
+.people-search #searchresults .cu-table th, .people-search #searchresults .cu-table td {padding: 5px 15px; height: 60px; vertical-align:middle;}
+
+.people-search .cu-table th {width: 30%;}
+
+@media (max-width: 35.938em){ #search-tabs a.tab {width:19%}
+}
+
+@media (max-width: 60em){
+#general-block, #phone-block, #address-block,#employment-block, #other-block {float: none; width: 100%; margin: 0}
+}
+
+#pages-results .gsc-result{border-top:0;border-bottom:1px solid #e6e6e6}
+#pages-results .gs-title * {font-weight: 400; font-size: 1.3em}
+
+#pages-results a.gs-title b, #pages-results .gsc-promotion a.gs-title em  {font-weight: 600; font-size:inherit}
+
+
+
+.searchResultsCard {background-color: white;border: 1px solid #DDD; max-height: 25em;margin-bottom: 2em;padding: 1.2em;overflow: auto; position: relative;font-weight: 400}
+
+.searchResultsCard  ol {margin: 0; padding: 0}
+
+.event-list li {font-size: 0.9em; padding-bottom: 1em}
+#searchResultsCards .event-list li {margin-top: 14px;border-bottom:1px solid #e6e6e6}
+#searchResultsCards .event-list li:last-child {border-bottom:0}
+#events-results .event-list li {border-top: 0;border-bottom: 1px solid #e6e6e6}
+.event-list li:last-child {border-bottom: none; padding-bottom: 0}
+.event-list li a{ font-weight: 400}
+
+.searchResultsCard h3 {display: inline; margin-left: 15px; font-size: 1.9em}
+
+.event-list .unit-item, .event-list .location-item {font-size: 1.1em; margin: 1em}
+.searchResultsCard span.more {float: right; text-transform: uppercase; font-size: .8em; margin: 10px 10px 0 0}
+
+ol#peopleListCard {margin: 1em;}
+ol#peopleListCard li {font-size: 1em; line-height: 1.4em;}
+ol#peopleListCard a.full-name {font-size: 1.3em;}
+ol#peopleListCard li p {font-size: 1em;}
+
+.corner {width: 0;height: 0;border-style: solid;border-width: 25px 25px 0 0;border-color: #b31b1b transparent transparent transparent; position: absolute; top: 0; left: 0;}
+
+/***************************** 
+CU LOGO kdl48
+******************************/
+.home #cu-brand {background-image: url('../core/images/logo-white.png')}
+@media (min-width: 60em){#cu-brand {background-image:url('../core/images/logo-red.png');background-size:120px 120px;width:120px;height:120px}.search-results {padding-top:98px}#search-tabs {top:398px}
+}
+@media (min-width: 60em){.cu-menu-visible #cu-brand{background-image:url('../core/images/logo-red.png') !important}
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    @media (min-width: 60em){.home #cu-brand {background-image: url('../core/images/logo-white@2x.png')}}
+	@media (min-width: 60em){.cu-menu-visible #cu-brand{background-image:url('../core/images/logo-red@2x.png') !important}}
+}
+
+/***************************** 
+MOBILE LOGO kdl48
+******************************/
+
+@media (max-width: 59.99em){
+#cu-brand{background-image:url('../core/images/45pxlogo-white.svg?1390332815')!important}
+.no-svg .home #cu-brand{background-image:url('../core/images/45pxlogo-white.png?1391798424')}
+}
+
+/***************************** 
+ENGAGEMENT VIDEO kdl48
+******************************/
+
+.engagement-land-grant .video-wrapper {padding: 0;margin-bottom: 30px
+}
+@media (min-width: 36em) and (max-width: 60em) {.engagement-land-grant .video-wrapper {padding: 0}
+}
+
+@media (min-width: 60em) {.engagement-land-grant .video-wrapper {padding: 0}.engagement-land-grant a.media-video {width:inherit;margin-left: auto;margin-right: auto}
+}
+
+.lt-ie9 .engagement-land-grant .video-wrapper {padding: 0}
+
+.lt-ie9 .engagement-land-grant a.media-video {width:inherit;margin-left: auto;margin-right: auto}
+
+/***************************** 
+HOMEPAGE MARQUEE STYLE ADJUSTMENTS 
+******************************/
+
+/* COMMENTED OUT BY APP35 ON May 11. Specific gradients will be applied to the  */
+/*.home #cu-hdr {
+background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.9),transparent 100%);
+background-image: -moz-linear-gradient(top, rgba(0,0,0,0.9),transparent 100%);
+background-image: -o-linear-gradient(top, rgba(0,0,0,0.9),transparent 100%);
+background-image: linear-gradient(top, rgba(0,0,0,0.9),transparent 100%);
+}
+.marquee-item, a.marquee-item { filter: progid:DXImageTransform.Microsoft.Gradient(startColor="0", endColorStr="#000000", GradientType=0) }
+*/
+.marquee-copy { text-shadow: 0px 1px 1px rgba(0,0,0,0.8) }
+
+/***************************** 
+HOMEPAGE MARQUEE GRADIENT ADJUSTMENTS (SET BY UPDATER ON MARQUEE ITEMS)
+******************************/
+
+/* undo the default styling */
+.home #cu-hdr{background-image:none; filter: none}
+.marquee-item:after, a.marquee-item:after{background-image:none; filter: none}
+
+/* top gradients */
+.gradientAdjustTop100p:before, .gradientAdjustTop75p:before, .gradientAdjustTop50p:before, .gradientAdjustTop25p:before, .gradientAdjustTop0p:before, .ie-shadowTop {	
+content: "";
+width: 100%;
+height:25%;
+max-height: 278px; /* height of header */
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;	
+}
+
+.gradientAdjustTop100p:before, a.gradientAdjustTop100p:before, .gradientAdjustTop100p .ie-shadowTop{
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-8 */	
+}
+
+.gradientAdjustTop75p:before, a.gradientAdjustTop75p:before, .gradientAdjustTop75p .ie-shadowTop{
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjc1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.75) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.75)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.75) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0.75) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0.75) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.75) 0%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf000000', endColorstr='#00000000',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.gradientAdjustTop50p:before, a.gradientAdjustTop50p:before, .gradientAdjustTop50p .ie-shadowTop{
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjUiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.5)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#00000000',GradientType=0 ); /* IE6-8 */	
+}
+
+.gradientAdjustTop25p:before, a.gradientAdjustTop25p:before, .gradientAdjustTop25p .ie-shadowTop{
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.25)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40000000', endColorstr='#00000000',GradientType=0 ); /* IE6-8 */	
+}
+.gradientAdjustTop0p:before, a.gradientAdjustTop0p:before, .gradientAdjustTop0p .ie-shadowTop{
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	
+}
+
+/* bottom gradients */
+.gradientAdjustBottom100p:after, .gradientAdjustBottom75p:after, .gradientAdjustBottom50p:after, .gradientAdjustBottom25p:after, .gradientAdjustBottom0p:after, .ie-shadowBottom{
+content: "";
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;
+behavior: url(/assets/PIE-1.0.0/PIE.htc);
+}
+
+.gradientAdjustBottom100p:after, a.gradientAdjustBottom100p:after, .gradientAdjustBottom100p .ie-shadowBottom{
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-8 */
+
+}
+
+.gradientAdjustBottom75p:after, a.gradientAdjustBottom75p:after, .gradientAdjustBottom75p .ie-shadowBottom{
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC43NSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.75) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.75))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#bf000000',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.gradientAdjustBottom50p:after, a.gradientAdjustBottom50p:after, .gradientAdjustBottom50p .ie-shadowBottom{
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC41Ii8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.5))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000',GradientType=0 ); /* IE6-8 */
+	
+}
+.gradientAdjustBottom25p:after, a.gradientAdjustBottom25p:after, .gradientAdjustBottom25p .ie-shadowBottom{
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.25) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.25))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.25) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.25) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.25) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.25) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#40000000',GradientType=0 ); /* IE6-8 */
+	
+}
+.gradientAdjustBottom0p:after, a.gradientAdjustBottom0p:after, .gradientAdjustBottom0p .ie-shadowBottom{
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%); /* W3C */
+}
+
+
+/***************************** 
+Homepage Around the U 
+******************************/
+
+.disabledHC a {color: #949494; cursor: default}
+
+.disabledHC a:hover{text-decoration:none}
+.hc-atu-title {display:none;}
+@media (min-width: 90em){
+	
+.hc-atu-title{color: #999; text-transform: uppercase; font-size: 14px;font-weight: normal; margin-top: 10px; display:block;}
+.hc-slideshow-caption .hc-atu-title{color: #fff; text-transform: uppercase; font-size: 14px;font-weight: normal; margin-top: 0px; display:block;}
+}
+
+#honeycomb nav.pager {padding:0}
+
+/***************************** 
+HOMEPAGE SESQUI STYLES 
+******************************/
+
+#honeycomb {margin-bottom: 0}
+
+#sesqui-wrap h4.cu-title {margin: 10px 0;}
+.section#sesqui-wrap { background-color:#ededed; margin-top: 0; border-top: 6px solid #b6954b; border-bottom: 1px solid #e0e0e0;}
+.sesquicentennial {width: 100%; text-align: center;font-family: "freight-text-pro-n4","freight-text-pro",serif;}
+.icon-clocktower {font-size: 45px;-webkit-backface-visibility: hidden;}
+.sesqui-heading { font-weight: 100; color:#b6945b; font-size: 40px; line-height: 1.26667; font-style:italic; width: 50%;margin: 0 auto; }
+.sesqui-sub-heading { font-weight: 400;color: #1d1d1d;font-size: 40px; line-height: 1.26667; width: 50%;margin: 0 auto;}
+p.dash {color:#b6945b; font-size: 80px; margin:25px 0 50px; line-height: 0; display:none;}
+.blurb {font-size: 20px;line-height: 1.6;width: 45%;margin: 30px auto; position: relative; padding-top: 40px;}
+
+.blurb:before {position: absolute; top: 0; left: 0; right: 0; margin: 0 auto; background-color: #b6945b; content: ""; height: 3px; width: 80px;}
+
+#sesqui-wrap .btn {background-color: #b6954b;width: auto; display: inline-block; padding: 18px 40px;}
+#sesqui-wrap .btn:hover,#sesqui-wrap .btn:focus,#sesqui-wrap .btn:active,#sesqui-wrap a.btn:hover, #sesqui-wrap a.btn:focus,#sesqui-wrap a.btn:active{background-color:#9e7d32;text-decoration:none}
+
+@media (max-width: 60em) {
+.sesqui-heading, .sesqui-sub-heading {float: none; width: 100%;}
+.sesqui-heading {font-size: 20px; width:55%}
+.sesqui-sub-heading {font-size: 30px;}
+.blurb {display: none;}
+#sesqui-wrap .btn {margin-top: 30px;}
+}
+
+.lt-ie9 .sesquicentennial { width:100%; margin: 0 auto; float:none }
+
+/***************************** 
+/* HOMEPAGE SOCIAL STYLES 
+******************************/
+
+.section#social-wrap {background-color: #fff; width: 100%;}
+.home-instagram, .home-twitter, .sesqui-twitter, .general-twitter {text-align: center; float: left; }
+.home-instagram {width: 25%; }
+.home-twitter {width: 30%; margin: 0 7.5%;}
+.sesqui-twitter, .general-twitter {width: 30%}
+.sesqui-twitter h4.cu-title a {color: #b6945b;}
+.tweet {font-size: 20px;line-height: 1.5;}
+#social-wrap span {color: #e0e0e0;display: block;font-size: 23px;}
+.section#sesqui-wrap .block-header {margin-bottom: 0;}
+
+.tweet time {font-family: "freight-sans-pro-n7","freight-sans-pro",sans-serif; font-style: normal; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: #7d7f80; font-size: 14px; }
+
+@media (max-width: 60em) {
+.home-instagram, .home-twitter, .sesqui-twitter, .general-twitter { float: none; width: 100%; margin: 20px 0;}
+.tweet {font-size: 16px;line-height: 1.5;}
+}
+
+/***************************** 
+/* ADMISSIONS STYLES 
+******************************/
+.admissions-program .media-title label {font-size: 22px;text-shadow: 0 1px 0 rgba(0,0,0,0.3)}
+
+@media (min-width: 60em){
+.admissions-program .media-title label {font-size: 36px} .student-blog-grid {width: auto}
+}
+
+@media (max-width: 60em) and (min-width: 36em){.admissions-program .media-title label {font-size: 32px}
+}
+
+@media (max-width: 60em) and (min-width: 52em){.admissions-program .media-title label {font-size: 26px}
+}
+
+.media-title label {color:#FFF}
+
+.admissions-makes .link-list {clear: both}
+
+/***************************** 
+/* ACADEMICS STYLES 
+******************************/
+@media (max-width: 60em) and (min-width: 36em){.academics-classroom {padding: 94px 0}
+}
+#cu-insignia {display:none}
+.print-logo{display:none}
+.cu-print {float:right}
+
+/***************************** 
+CU-INFO STYLES
+******************************/
+.cu-info #cu-hdr {
+background-color: transparent;
+background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.9),transparent 100%);
+background-image: -moz-linear-gradient(top, rgba(255,255,255,0.9),transparent 100%);
+background-image: -o-linear-gradient(top, rgba(255,255,255,0.9),transparent 100%);
+background-image: linear-gradient(top, rgba(255,255,255,0.9),transparent 100%)}
+.cu-info #cu-brand {background-image: url(/assets/core/images/logo-white.svg)}
+.cu-info-hdr {border-top: 0}
+.cu-info-hdr img.hdr-image {top: 42px; max-height:68em}
+.safety-news {width:60.66%}
+.safety-news article { padding-bottom:15px; }
+
+@media (max-width: 72em) {.cu-info-hdr img.hdr-image {top: 0}.cu-info h1.page-title {text-shadow: 0px 1px 1px rgba(0,0,0,0.8)}	
+}
+
+/*@media (max-width: 60em) {.cu-info h1.page-title, h1.cu-info-logotype, .cu-info-tagline, .icon-clocktower {color:#222; text-shadow:none}
+}*/
+
+#cu-info-brand {margin-top:83px;text-shadow:0 2px 8px rgba(0,0,0,0.3)}
+
+.cu-info-related {display:block}
+
+@media (max-width: 60em) and (min-width: 36em){.cu-info-related .container>ul {padding-top:0}.cu-info-link-set {padding-top: 43px}
+}
+
+/***************************** 
+VIDEO IFRAME TEMPLATE STYLES
+******************************/
+.video-container {position: relative;padding-bottom: 56.25%;height: 0;overflow: hidden}
+.video-container iframe { position: absolute;top:0;left: 0;width: 100%;height: 100%}
+
+/***************************** 
+'APPLY' NAV STYLES
+******************************/
+@media (min-width: 60em) { 
+	ul#cu-nav-utility ul.submenu-links .applyChild { /*font-weight:400; text-transform:none; */ /*background-color: #7A0800;*/background:#a10606; display:none; color:#f4f4f4; font-weight:600; background:none;/*padding-left:8px;*/  } 
+	ul#cu-nav-utility ul.submenu-links .applyChild:hover { text-decoration:underline; }
+	ul#cu-nav-utility ul.submenu-links .applyChildLi { /*float:left;*/ background:#a10606; }
+	ul#cu-nav-utility ul.submenu-links .applyChildLi { /*float:right;*/ /*margin-left:-8px;*/ }
+	
+	ul#cu-nav-utility ul.submenu-links .applyParent { background-repeat:no-repeat !important; background-position:right center; }
+	
+	li.cu-nav-actions a.apply-nohover:hover, li.cu-nav-actions a.apply-nohover:focus { background-color:#b31b1b; } 
+	
+}
+
+/*****************************
+ANY PERSON, ANY STUDY: ADDED BY MEGHAN HORTON 9/4/2014
+*****************************/
+  #cu-anypersonanystudy{ background: #000; color: #ccc; text-align: center;  }
+  #cu-anypersonanystudy p{margin: 0; padding: 0;}
+  #cu-anypersonanystudy .cu-ftr-inner{ padding: 2.5em 2em; }
+  #cu-anypersonanystudy a{ color: #ccc; font-size: 29px; padding: 0; margin: 0; line-height: 100%; font-family: "freight-text-pro",serif; letter-spacing: 1px; }
+  #cu-anypersonanystudy a>.attribution{ font-size: 17px; font-family: "freight-sans-pro",sans-serif; letter-spacing: 0; display: inline-block; padding-left: 5px; }
+  @media (min-width: 78em){ 
+  	#cu-anypersonanystudy a{ font-size: 29px; }
+    #cu-anypersonanystudy a>.attribution{ font-size: 17px; }
+  }
+
+  @media (max-width: 78em) and (min-width: 68em){
+    #cu-anypersonanystudy a{ font-size: 25px; }
+    #cu-anypersonanystudy a>.attribution{ font-size: 18px; }
+  }
+  
+  @media (max-width: 68em){
+   #cu-anypersonanystudy .cu-ftr-inner{ padding: 2.5em 0;}
+   #cu-anypersonanystudy a{ font-size: 23px;}
+   #cu-anypersonanystudy a>.attribution{ font-size: 16px; display: block; }
+  }
+
+
+/***************************** 
+FOOTER 
+******************************/
+
+#cu-ftr {background-color: #222;text-align:left}
+.ftr-links li a, .ftr-utility a {color: #ccc}
+/*.cu-page #main {text-align:left}*/
+#cu-ftr-nav {margin-bottom:64px}
+
+/***************************** 
+added by apb76 for testing
+******************************/
+
+.college-overview{font-family:"freight-sans-pro-n3","freight-sans-pro",sans-serif;font-style:normal;font-weight:300;font-size:27px;line-height:1.5;margin-bottom:48px}
+@media (min-width: 36em) and (max-width: 60em){.college-overview{font-size:26px;margin-bottom:66px}}@media (min-width: 60em){.college-overview{font-size:26px;margin-bottom:66px}}.lt-ie9 .college-overview{font-size:26px;margin-bottom:66px}
+
+
+/* Twitter Rotator */
+.fadeinfadeout { display:none; }
+
+/* Ensure accessibility for tab selector. */
+a:focus { outline: thin dotted !important; }
+
+
+@media (max-width: 60em){
+.ftr-weather {display: none}
+}
+
+
+
+
+
+
+
+
+/***************************** 
+HOMEPAGE SESQUI 150 STYLES 
+******************************/
+.blurb {width: initial;padding-top: 0;margin: 0}
+.blurb:before {background-color: transparent}
+
+.sesqui-150 {background: url('/assets/core/images/sesqui-white.svg?092302015');background-repeat: no-repeat;background-size: 72px 30px;width: 72px;height: 30px;position: absolute;text-indent: -9999em;top: 8px;float: left;margin-left: 20px;}
+.sesqui-logo {background: url('/assets/core/images/sesqui-white.svg?092302015');background-repeat: no-repeat;background-size: 92px 36px;width: 92px;height: 36px;position: relative;text-indent: -9999em;float: left}
+
+#honeycomb {margin-bottom: 0}
+
+.sesqui-container {max-width: 79em;padding-left: 2em;padding-right: 2em;margin-left: auto;margin-right: auto;}
+.section#sesqui-wrap {float:left;background-color:#ededed; margin-top: 0; border-top: 6px solid #b6954b; border-bottom: 1px solid #e0e0e0}
+.sesquicentennial {width: 100%; text-align: center;font-family: "freight-text-pro-n4","freight-text-pro",serif}
+
+.sesqui-redlogo {background: url('/assets/core/images/sesqui-red.svg?092302016');background-repeat: no-repeat;background-size: 250px 104px;width: 250px;height: 104px;float: left; margin: 10px 110px;position: relative;text-indent: -9999em;left:40px}
+.sesqui-sub-heading {font-weight: 400;color: #1d1d1d;font-size: 48px; line-height: 1.26667; text-align:left; width: 66%;margin: 0 0 0 auto}
+#sesqui-video{float:left;max-height: 315px;margin-top:60px}
+.sesqui-marquee-video {width:560px}
+.sesqui-marquee-img {display: block;width: 100%;}
+#sesqui-wrap .media-video video {max-width: 560px}
+#sesqui-wrap .media-overlay {top:0;left:inherit;}
+.sesquicentennial .media-overlay {font-size:28px !important;font-weight: 500;padding:0}
+#sesqui-wrap .clocktower {font-size: 60px;-webkit-backface-visibility: hidden;float: left;width: 22%;text-align: left;margin: 55px 0 0 50px}
+.sesqui-nav {text-align: left;float:right;width: 18%;margin-top:48px; margin-left:40px}
+.sesqui-links {font-style: italic !important;padding: 0;margin-left:-35px;margin-top: -10px;}
+.sesqui-links li{background-image: url('/assets/core/images/sesquibanner-red.svg');background-repeat: no-repeat;background-position: 0px 5px;padding-left: 35px;padding-bottom: 35px;border-bottom: 1px solid #e0e0e0;list-style-type: none;}
+.sesqui-links.no-border li {border:none}
+.sesqui-links li a {font-family:"freight-text-pro-n4","freight-text-pro",serif;font-style: italic;font-size: 20px;color:#b31b1b}
+#sesqui-wrap .blurb {font-size: 20px;line-height: 1.6;text-align: left;width:100%}
+.sesqui-video-a{clear: both;display: block;position: relative;width: 100%;}
+#sesqui-video .media-overlay {
+-webkit-font-smoothing: antialiased;
+font-smoothing: antialiased;
+text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,strength=2,direction=180);
+}
+
+@media (max-width: 72em) {
+.sesqui-redlogo {background-size: 220px 90px;width:220px;height:90px}
+.sesqui-sub-heading {font-size:36px}
+#sesqui-wrap .clocktower {display:none}
+#sesqui-video {max-width:560px}
+.sesquicentennial .media-overlay {font-size:24px !important}
+.sesqui-nav {float: left;width: 30%;padding:0 30px}
+#sesqui-wrap .blurb {display: none;}
+}
+
+@media (max-width: 59.97em) {
+.sesqui-container {max-width: 79em;max-width: 79em;padding-left: 0;padding-right: 0;margin-left: auto;margin-right: auto;}
+.sesqui-redlogo {float:none;margin:10px auto;left:0}
+.sesqui-heading, .sesqui-sub-heading {text-align:center;float: none; width: 100%;}
+.sesqui-sub-heading {margin-bottom:20px}
+#sesqui-video {float:none; margin: 20px auto}
+.sesqui-marquee-video {display:none;width: 100%;}
+.sesquicentennial .media-overlay {font-size:21px !important}
+.sesqui-nav {width: auto; margin-top:10px}
+.sesqui-links {margin-top: -10px;}
+}
+
+.lt-ie9 .sesquicentennial { width:100%; margin: 0 auto; float:none }
+@media (min-width: 60em) {.sesqui-marquee-img {display: none;} 
+}
+@media (max-width: 60em) {.sesqui-150 {display:none}
+}
+@media (min-width: 71em){.sesqui-marquee-img {display: none;}
+}
+
+/***************************** 
+EVENT TAB STYLES 
+******************************/
+
+@media (min-width: 60em){
+.cu-tabs.two-col a.tab {margin-right: 1.5em;}
+}
+
+@media (max-width: 60em){.home-events>a {margin-top:14px}
+}
+@media (max-width: 60em) and (min-width: 36em){.cu-tabs.two-col a.tab {float: none;width: auto;margin-right: 1.5em;}}
+@media (max-width: 40em) {.home-events>a {display: none}}
+
+@media (max-width: 36em) {.cu-tabs.two-col a.tab {width: 32%;}.cu-tabs.two-col a.tab:last-child {width: 36%;}}
+
+/***************************** 
+LIVE VIEW STYLES 
+******************************/
+#player-1 {position: relative;padding-bottom: 56.25%; /* 16:9 */width: 100%}
+#player-1 object,#player-1 embed,#player-1 video {position: absolute;top: 0;left: 0;width: 100%;height: 100%}
